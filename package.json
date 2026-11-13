@@ -1,0 +1,26 @@
+{
+  "name": "ommail-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OmMail AI — serverless AI email auto-responder for support@omhackz.top (DeoMail Fire + Agnes AI)",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
